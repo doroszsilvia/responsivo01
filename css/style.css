@@ -1,0 +1,143 @@
+/*  GERAL  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*  NAVEGACAO */
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 8px 95px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.15);
+    z-index: 999;
+ 
+}
+
+.menu {
+    display: inline-block;
+    text-align: right;  
+}
+.conteiner1 {
+    width: 100%;
+    margin: 0 auto;
+    
+}   
+
+.conteiner1 img{
+    margin-right: 700px;
+    
+}
+
+.menu__item {
+    display: inline;
+    padding: 20px;
+}
+
+/*  LAYOUT  */
+
+.col-1-de-3 {
+    display: inline-block;
+    width: 30%
+}
+
+.col-2-de-3 {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+
+
+/*  HEADER  */
+.header__titulo {
+    text-transform: uppercase;
+    color: purple;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center; 
+    margin-bottom: 20px;
+    padding-top: 90;
+}
+
+/*  DESCRICAO AUTORA  */
+
+.conteiner {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.autora {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px;
+    height: 437px;
+    
+}
+.autora__nome,
+.autora__ocupacao{
+    margin: 0;
+}
+.autora__ocupacao {
+    color: gray;
+
+}
+    
+.autora__nome{
+    margin-top: 10px;
+}
+
+/*  ARTIGO  */
+
+.artigo {
+    color: black;
+    margin-left: 30px;
+}
+.artigo__titulo{
+    font-size: 36px;
+    margin-top: 0;
+
+}
+
+.artigo p {
+    font-size: 24px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.rodape p{
+    margin: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 768px){
+    .conteiner1{
+        display: none;
+
+    }
+}
+@media (max-width: 768px){
+    .autora{
+        display: none;
+
+    }
+}
